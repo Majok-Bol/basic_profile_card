@@ -12,13 +12,20 @@ class MyApp extends StatelessWidget{
           ,),
         body: Container(
           padding: EdgeInsets.all(10.0),
-          child: Column(
-            children: [
+          margin: EdgeInsets.all(10.0),
+          child:Column(
+          children: [
+            CircleAvatar(
+           radius: 100,
+            backgroundImage: AssetImage('assets/images/profile3.webp'),
+              ),
+            Text('Napoleon Hill'),
+            Text('Android | IOS developer'),
 
-            ],
-          ),
-        ) ,
+    ],
+    ),
       ),
+    ),
     );
   }
 }
