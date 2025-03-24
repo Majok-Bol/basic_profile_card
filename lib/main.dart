@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget{
                 backgroundImage: AssetImage('assets/images/profile3.webp'),
               ),
               ),
-              Text('Majok Bol',style: TextStyle(color: Colors.black,fontSize: 20,fontWeight: FontWeight.bold),),
+              Text('Majokie Bolis',style: TextStyle(color: Colors.black,fontSize: 20,fontWeight: FontWeight.bold),),
               Text('Android | IOS developer',),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
