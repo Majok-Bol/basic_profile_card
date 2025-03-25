@@ -55,16 +55,16 @@ class MyApp extends StatelessWidget{
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   IconButton(onPressed:(){
-                    print("Github pressed");
+                    print("Github icon  pressed");
                   }, icon:Icon(FontAwesomeIcons.github),color: Colors.black,),
                   IconButton(onPressed:(){
-                    print("Facebook pressed");
+                    print("Facebook icon  pressed");
                   }, icon:Icon(FontAwesomeIcons.facebook),color: Colors.blue,),
                   IconButton(onPressed:(){
-                    print("Instagram pressed");
+                    print("Instagram icon  pressed");
                   }, icon:Icon(FontAwesomeIcons.instagram),color: Colors.pink,),
                   IconButton(onPressed:(){
-                    print("Twitter pressed");
+                    print("Twitter icon pressed");
                   }, icon:Icon(FontAwesomeIcons.twitter),color: Colors.black,),
                 ],
 
